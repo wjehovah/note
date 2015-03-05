@@ -1,1 +1,4 @@
 java note
+
+git remote add origin https://github.com/wjehovah/note.git
+git push -u origin master
