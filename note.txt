@@ -1,4 +1,15 @@
+
 java note
 
 git remote add origin https://github.com/wjehovah/note.git
 git push -u origin master
+
+
+先将本地修改存储起来
+git stash 是用git stash list可以看到保存的信息：
+
+git pull
+
+git stash pop stash@{0}
+
+解决文件中冲突的的部分
