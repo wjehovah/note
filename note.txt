@@ -1,0 +1,59 @@
+测试
+java note
+
+git remote add origin https://github.com/wjehovah/note.git
+git push -u origin master
+
+
+先将本地修改存储起来
+git stash 是用git stash list可以看到保存的信息：
+
+git pull
+
+git stash pop stash@{0}
+
+解决文件中冲突的的部分
+
+
+git clone https://github.com/git.git
+
+cd git
+2、需要用git remote -v命令
+
+git remote add APDPlat-ysc https://github.com/ysc/APDPlat.git
+
+运行命令：git remote -v你会发现多出来了一个APDPlat-ysc的远程分支。如下： 
+
+APDPlat-ysc     https://github.com/ysc/APDPlat.git (fetch)
+
+APDPlat-ysc     https://github.com/ysc/APDPlat.git (push)
+
+origin  https://github.com/appframe/APDPlat.git (fetch)
+
+origin  https://github.com/appframe/APDPlat.git (push)
+3、然后把远程原始分支APDPlat-ysc的代码拉到本地
+
+git fetch APDPlat-ysc
+4、然后合并对方远程原始分支APDPlat-ysc的代码
+
+git merge APDPlat-ysc/master
+5、最后把最新的代码推送到你的github上
+
+git push origin master
+6、给APDPlat-ysc发送Pull Request
+
+用自己的github账号登陆github网站
+
+打开https://github.com/appframe/APDPlat
+
+点击Pull Request
+
+点击New Pull Request
+
+输入Title简要描述你改进的功能
+
+输入详细的功能说明
+
+点击Send pull request
+
+这样就把你的所有commit发送给APDPlat-ysc了以GitHub用户appframe为例子，在你操作的时候要把下面的GitHub用户名appframe换成你自己的GitHub用户名：
