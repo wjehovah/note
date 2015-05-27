@@ -1,4 +1,7 @@
+
 测试
+=======
+
 java note
 
 git remote add origin https://github.com/wjehovah/note.git
@@ -57,3 +60,7 @@ git push origin master
 点击Send pull request
 
 这样就把你的所有commit发送给APDPlat-ysc了以GitHub用户appframe为例子，在你操作的时候要把下面的GitHub用户名appframe换成你自己的GitHub用户名：
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
